@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">intecademy</string>
+
+    <string name="selected_item_programs">Selecciona un programa</string>
+    <string-array name="programs">
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+        <item>Ingenería de software</item>
+    </string-array>
+</resources>

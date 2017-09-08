@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Sólo una cosa más..."/>
+
+    <ImageView
+        android:id="@+id/almost_done"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/almost_done"
+        android:layout_gravity="center"
+        android:layout_weight="0.15"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalCreditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:text="Total de créditos aprobados"/>
+    <AutoCompleteTextView
+        android:id="@+id/actvTotalCreditos"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvIndiceGeneral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_gravity="center"
+        android:text="Indice general hasta el momento"/>
+    <AutoCompleteTextView
+        android:id="@+id/actvIndiceGeeneral"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnContinue"
+        android:onClick="btnContinue"/>
+
+</LinearLayout>
